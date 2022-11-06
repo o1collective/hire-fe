@@ -1,0 +1,47 @@
+{
+  "forms": [
+    {
+      "id": "1",
+      "fields": [
+        {
+          "tags": "input",
+          "label": "First Name",
+          "type": "text",
+          "id": "firstName",
+          "name": "firstName",
+          "required": true
+        },
+        {
+          "tags": "input",
+          "label": "Last Name",
+          "type": "text",
+          "id": "lastName",
+          "name": "lastName",
+          "required": true
+        },
+        {
+          "tags": "input",
+          "label": "Email",
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "required": true
+        },
+        {
+          "tags": "textarea",
+          "label": "Why join us?",
+          "type": "textfield",
+          "id": "whyjoinus",
+          "name": "whyjoinus",
+          "required": true
+        }
+      ],
+      "action": "/api/form",
+      "method": "post",
+      "button": {
+        "type": "submit",
+        "text": "Submit"
+      }
+    }
+  ]
+}

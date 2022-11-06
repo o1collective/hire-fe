@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Engineer",
+      "date": "2020-01-01",
+      "location": "Singapore",
+      "shortDescription": "Best job in the world. You will work with brilliant minds to build amazing products. At HRT we welcome a variety of expertise: mathematics and computer science, physics and engineering, media and tech.",
+      "longDescription": {
+        "aboutThisRole": "At HRT we welcome a variety of expertise: mathematics and computer science, physics and engineering, media and tech. We’re a community of self-starters who are motivated by the excitement of being at the cutting edge of automation in every part of our organization—from trading, to business operations, to recruiting and beyond. We value openness and transparency, and celebrate great ideas from HRT veterans and new hires alike. At HRT we’re friends and colleagues – whether we are sharing a meal, playing the latest board game, or writing elegant code. We embrace a culture of togetherness that extends far beyond the walls of our office.",
+        "skillsRequired": [
+          "Strong communication skills",
+          "Familiarity with python and javascript",
+          "Able to work in highly stressful environments"
+        ],
+        "niceToHaves": [
+          "Know everything under the sun",
+          "Stackoverflow answers contributor"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "Business Analyst",
+      "date": "2022-01-01",
+      "location": "Singapore",
+      "shortDescription": "Best job in the world. You will work with brilliant minds to build amazing products. At HRT we welcome a variety of expertise: mathematics and computer science, physics and engineering, media and tech.",
+      "longDescription": {
+        "aboutThisRole": "At HRT we welcome a variety of expertise: mathematics and computer science, physics and engineering, media and tech. We’re a community of self-starters who are motivated by the excitement of being at the cutting edge of automation in every part of our organization—from trading, to business operations, to recruiting and beyond. We value openness and transparency, and celebrate great ideas from HRT veterans and new hires alike. At HRT we’re friends and colleagues – whether we are sharing a meal, playing the latest board game, or writing elegant code. We embrace a culture of togetherness that extends far beyond the walls of our office.",
+        "skillsRequired": [
+          "Strong communication skills",
+          "Familiarity with python and javascript",
+          "Able to work in highly stressful environments"
+        ],
+        "niceToHaves": [
+          "Know everything under the sun",
+          "Stackoverflow answers contributor"
+        ]
+      }
+    }
+  ]
+}
