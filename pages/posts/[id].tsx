@@ -50,6 +50,7 @@ export default function Post({
       label: string;
       type: string;
       id: string;
+      required: boolean;
       options: {
         value: string;
         label: string;
