@@ -4,7 +4,7 @@
       "id": "1",
       "fields": [
         {
-          "tags": "input",
+          "htmlTags": "input",
           "label": "First Name",
           "type": "text",
           "id": "firstName",
@@ -12,7 +12,7 @@
           "required": true
         },
         {
-          "tags": "input",
+          "htmlTags": "input",
           "label": "Last Name",
           "type": "text",
           "id": "lastName",
@@ -20,19 +20,37 @@
           "required": true
         },
         {
-          "tags": "input",
+          "htmlTags": "input",
           "label": "Email",
           "type": "email",
           "id": "email",
           "name": "email",
-          "required": true
+          "required": false
         },
         {
-          "tags": "textarea",
+          "htmlTags": "textarea",
           "label": "Why join us?",
           "type": "textfield",
           "id": "whyjoinus",
           "name": "whyjoinus",
+          "required": true
+        },
+        {
+          "htmlTags": "select",
+          "label": "Are you Singaporean?",
+          "type": "textfield",
+          "id": "whyjoinus",
+          "name": "whyjoinus",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ],
           "required": true
         }
       ],

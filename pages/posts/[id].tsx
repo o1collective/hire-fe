@@ -8,6 +8,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import { getFormData } from "../../lib/forms";
 
 import utilStyles from "../../styles/utils.module.css";
+import FlexiForm from "../../components/flexiform";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const postData = await getPostData(params.id);
@@ -45,9 +46,14 @@ export default function Post({
   formData: {
     id: string;
     fields: {
+      htmlTags: string;
       label: string;
       type: string;
       id: string;
+      options: {
+        value: string;
+        label: string;
+      }[];
       name: string;
     }[];
     action: string;
@@ -84,19 +90,7 @@ export default function Post({
         </ul>
       </article>
       <div className={utilStyles.headingLg}>Register here</div>
-      <form action={formData.action} method={formData.method}>
-        {formData.fields.map((field) => {
-          return (
-            <div key={field.id}>
-              <label>{field.label}</label>
-              <br />
-              <input type={field.type} id={field.id} name={field.name} />
-              <br />
-            </div>
-          );
-        })}
-        <button type={formData.button.type}>{formData.button.text}</button>
-      </form>
+      <FlexiForm formFieldsData={formData} />
     </Layout>
   );
 }
